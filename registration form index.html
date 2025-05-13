@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        background-color: #a1507d;
+        color: rgb(51, 4, 25);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        border: solid black 3px;
+        border-radius: 20px;
+
+    }
+
+    .input {
+        background-color: #d4a2b9;
+        color: #121111;
+        border: solid rgb(8, 0, 5) 3px;
+        border-radius: 10px;
+        height: 30px;
+        width: 13rem;
+    }
+
+    input::placeholder {
+    color: #0c050969; 
+    opacity: 1;     
+    }
+    .custom-radio {
+        color: #4d1830;
+        background-color: #4d1830;
+    }
+
+</style>
+
+<body>
+    <div class="form">
+        <form action="/action.php">
+            <h1><u>Registration form</u></h1>
+            <br>
+            <input class="input" type="text" placeholder="Your Name">
+            <br>
+            <br>
+            <input class="input" type="email" placeholder="Your Email">
+            <br>
+            <br>
+            <input class="input" type="password" placeholder="Password">
+            <br>
+            <br>
+            <input class="input" type="password" placeholder="Confirm Passwrd">
+            <br>
+            <br>
+            <h3>Select Gender</h3> <label for="1">
+                <input type="radio" value="Female" name="gender" id="1">Female
+            </label>
+            <br>
+            <label for="2">
+                <input type="radio" value="Male" name="gender" id="2">Male
+            </label>
+            <br>
+            <label for="3">
+                <input type="radio" value="Others" name="gender" id="3">Others
+
+                <h3>Select state</h3>
+                <select
+                    style="background-color: #4d1830; color:#d4a2b9; border: rgb(63, 8, 38) 10px; border-radius: 5PX; height: 1.25rem;"
+                    name="city">
+                    <option value="Delhi">Delhi</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Uttrakhand">Uttrakhand</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Punjab">Punjab</option>
+
+                </select>
+                <button
+                    style="background-color: rgb(81, 37, 64); color: rgb(245, 204, 239); border-radius: 10px;">submit</button>
+            </label>
+        </form>
+    </div>
+</body>
+
+</html>
