@@ -1,0 +1,182 @@
+body {
+  background-color: #77967a;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.box {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85vw;
+  height: 480px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5%;
+  padding: 40px;
+
+
+}
+
+.item1 {
+  width: 50rem;
+  padding-left: 40px;
+
+}
+
+.a button {
+  background-color: #000500a8;
+  color: white;
+  border: none;
+  padding: 5px 90px;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 40px;
+}
+
+.a button:hover {
+  background-color: #f5f9f6f3;
+  color: #77967a;
+}
+
+.hire-me button:hover{
+   background-color: #f9fffa5f;
+  color: #77967a;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: left;
+  /* aligns to the left, change to center or right if needed */
+  align-items: center;
+  gap: 30px;
+  /* space between icons */
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.social-icons .icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.social-icons .icon:hover {
+  transform: scale(1.1);
+}
+
+.profilephoto {
+  height: 100%;
+  width: 35%;
+  margin-top: 80px;
+
+}
+
+.profilepicture {
+
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  align-items: flex-end;
+  justify-content: right;
+
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.h {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box {
+  position: relative;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+
+.buttons {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 50px;
+  z-index: 2;
+  word-spacing: 100px;
+
+}
+
+.buttons a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.516);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.041);
+}
+
+.buttons a:hover {
+  background-color: rgba(0, 0, 0, 0.023);
+  color: #77967a;
+}
+
+.button-b {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.701);
+  /* Change this color */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box {
+  position: relative;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.box {
+  position: relative;
+  background-color: white;
+  padding: 40px;
+  border-radius: 3px;
+}
+
+
+.button-c {
+  position: absolute;
+  top: 30px;
+  left: 1100px;
+  border-radius: 0px;
+  z-index: 2;
+  word-spacing: 100px;
+  margin: 0 20px;
+
+}
+
+.button-c a:hover {
+  color: rgba(15, 1, 1, 0.037);
+}
